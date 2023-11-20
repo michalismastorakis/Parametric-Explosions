@@ -1,0 +1,2 @@
+Out of 6561 remnant mass distributions, 4566 (or 70.0%) have a mass gap and 1995 (or 30.0%) do not have a mass gap. Out of those that do not have a mass gap, 1977 (or 99.0%) do not predict any NSs, 18 (or 1.0%) do not predict any BHs, and 0 (or 0.0%) simply have a zero mass gap. 
+Out of 4566 bh mass distributions, 2323 (or 51.0%) have more that 6 components in their GMM fit, 2702 (or 59.0%) have distinct groups and 1486 (or 55.00000000000001%) have large gaps.
