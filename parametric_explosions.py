@@ -14,22 +14,6 @@ import astropy.constants as c
 from sklearn.preprocessing import StandardScaler
 import matplotlib
 
-#* =======================================================================================================================================+
-def prepare_canvas():
-    plt.rcParams['figure.figsize'] = [8, 8]
-    plt.rcParams['axes.linewidth'] = 2.5
-    plt.legend(prop={'size': 15})
-
-    fontsize = 20
-    ax = plt.gca()
-    ax.tick_params(direction = 'in', length = 20)
-    for tick in ax.xaxis.get_major_ticks():
-        tick.label1.set_fontsize(fontsize)
-        # tick.label1.set_fontweight('bold')
-    for tick in ax.yaxis.get_major_ticks():
-        tick.label1.set_fontsize(fontsize)
-        # tick.label1.set_fontweight('bold')
-
 #! this function takes as input data (e.g. a dictionary), converts it into a dataframe and finds the correlation between its entries
 def correlation(dat):
     dataframe = pd.DataFrame(dat)
