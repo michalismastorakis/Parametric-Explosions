@@ -1,5 +1,7 @@
-# from boom import *
-# from arnett import *
+# If you plan on using the new model, you should comment out the following two lines in order to prevent any mixup of the functions
+from boom import *
+from arnett import *
+# ====================================================
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
